@@ -6,6 +6,10 @@ def create_snapshots():
             'format': 'png',
             'javascript-delay': str((i * 10)),
             'allow': ".",
+            'crop-h': '3',
+            'crop-w': '3',
+            'crop-x': '3',
+            'crop-y': '3',
             'debug-javascript': None,
             'cookie': [
                 ('target', '22'),   
