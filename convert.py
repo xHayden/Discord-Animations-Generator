@@ -5,6 +5,7 @@ def create_snapshots():
         options = {
             'format': 'png',
             'javascript-delay': str(i * 10),
+            'allow': "."
         }
         imgkit.from_file('roulette.html', 'out{0}.jpg'.format(i), options=options)
 create_snapshots()
