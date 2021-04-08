@@ -359,8 +359,9 @@
 </body>
 <script>
     //let ctx = document.getElementById("canvas").getContext("2d");
-    const urlParams = new URLSearchParams(window.location.search);
-    const target = urlParams.get('target');
+    const cookies = document.cookie;
+    function getCookie(cname) {  var name = cname + "=";  var decodedCookie = decodeURIComponent(document.cookie);  var ca = decodedCookie.split(';');
+    const target = getCookie('target');
     var rotationsTime = 8;
     var wheelSpinTime = 6;
     var ballSpinTime = 5;
