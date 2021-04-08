@@ -8,8 +8,8 @@ def create_snapshots():
             'allow': ".",
             'crop-h': '1000',
             'crop-w': '1000',
-            'crop-x': '5000',
-            'crop-y': '5000',
+            'crop-x': '2000',
+            'crop-y': '2000',
             'debug-javascript': None,
             'cookie': [
                 ('target', '22'),   
